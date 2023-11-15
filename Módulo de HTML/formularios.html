@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <main>
+        <h1>Tipos de formulário</h1>
+        <hr>
+        <br>
+        <form action="" method="get">
+            <div>
+                <label for="texto">Nome: </label>
+                <input type="text" id="texto" name="texto">
+            </div>
+            <div>
+                <label for="senha">senha: </label>
+                <input type="password" id="senha" name="senha">
+            </div>
+            <div>
+                <label for="email">email: </label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <label for="data">Data de nascimento</label>
+                <input type="date" id="data" name="data">
+            </div>
+
+            <div>
+                <label for="tempo">Horário: </label>
+                <input type="time" id="tempo" name="tempo">
+            </div>
+
+            <div>
+                <label for="quantidade">Escolha um número</label>
+                <input type="number" id="quantidade" name="numero">
+            </div>
+
+            <div>
+                <label for="file">Adicione um ficheiro</label>
+                <input type="file" id="file" name="file">
+            </div>
+
+            <div>
+                <label for="link">Links: </label>
+                <input type="url" id="link" name="link">
+            </div>
+
+            <div>
+                <label for="cor">Cor: </label>
+                <input type="color" id="cor" name="color">
+            </div>
+
+            <div>
+                <label for="range">Intervalos: </label>
+                <input type="range" id="range" name="range">
+            </div>
+
+            <div>
+                <!--Pode escolher mais que uma-->
+                <label for="checkbox">Checklist: </label>
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox">
+                <input type="checkbox" id="checkbox" name="checkbox">
+            </div>
+
+            <div>
+                <!--Não pode escolher mais que uma-->
+                <label for="bolinha">Apenas um correta: </label>
+                <input type="radio" id="bolinha" name="bolinha">
+                <input type="radio" id="bolinha" name="bolinha">
+                <input type="radio" id="bolinha" name="bolinha">
+            </div>
+            <div>
+                <label for="resetar">Resetar os Formulários: </label>
+                <input type="reset" id="resetar" name="reset" value="Resetar infos">
+            </div>
+
+            <br>
+            <br>
+            <textarea name="caixa-de-texto" id="caixa-de-texto" cols="10" rows="5"></textarea>
+            <br>
+            <br>
+            <div>
+                <select name="select" id="select">
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="receita">Receita</option>
+                    <option value="desoesas">Despesas</option>
+                    <option value="transferencia">Transferencia</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <input type="submit" id="enviar" name="submit" value="Enviar">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
