@@ -1,4 +1,4 @@
-# [Trilha-Digital--Web-Front-End da ADA TECH] #
+# [Trilha-Digital-Web-Front-End da ADA TECH] #
 
 ##  Um curso online do processo seletivo Santander Coders 2023.2 | Front-End  ##
 
